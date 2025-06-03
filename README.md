@@ -25,3 +25,28 @@ _This starts the server in non-database mode._ It will serve a simple webpage at
 You do _not_ need to set up a database or any interactivity on the webpage yet. Instructions for that will come later in the course!
 
 Butch's version of Boot.dev's Notely app.
+
+## Contributing
+
+### Clone the repository
+
+```bash
+git clone https://github.com/ButchAnton/boot.dev-learn-cicd-starter@latest
+cd boot.dev-learn-cicd-starter
+```
+
+## Build the project
+
+```bash
+go build -o notely
+```
+
+### Run the project
+
+```bash
+./notely
+```
+
+### Submit a pull request
+
+If you'd like to contribute, please fork the repository and open a pull request to the `main` branch.
